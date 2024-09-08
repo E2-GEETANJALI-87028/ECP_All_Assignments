@@ -44,30 +44,3 @@ int main() {
     return 0;
 }
 
-/*
-#include<stdio.h>
-#include<limits.h>
-int main()
-{
-	printf("Data type\t\t size\t\t Format Speifier\t\t Range\t\n");
-
-	printf("char\t\t %c\t\t %%c\t\t %c to %c\t\n",sizeof(char),INT_MIN,INT_MAX);
-
-	printf("unsigned char\t\t %c\t\t %%c\t\t %c to %c\t\n",sizeof(unsigned char),INT_MIN,INT_MAX);
-
-	printf("short int\t\t %hd\t\t %%hd\t\t %hd to %hd\t\n",sizeof(short int),INT_MIN,INT_MAX);
-
-	printf("unsigned short int\t\t %hu\t\t %%hu\t\t %hu to %hu\t\n",sizeof(unsigned short int),INT_MIN,INT_MAX);
-
-	printf("int\t\t %d\t\t %%d\t\t %d to %d\t\n",sizeof(int),INT_MIN,INT_MAX);
-
-	printf("unsigned int\t\t %u\t\t %%u\t\t %u to %u\t\n",sizeof(unsigned int),INT_MIN,INT_MAX);
-
-	printf("long int\t\t %ld\t\t %%ld\t\t %ld to %ld\t\n",sizeof(long int),INT_MIN,INT_MAX);
-	
-	printf("unsigned long int\t\t %lu\t\t %%lu\t\t %lu to %lu\t\n",sizeof(unsigned long int),INT_MIN,INT_MAX);
-
-	return 0;
-
-	}
-	*/

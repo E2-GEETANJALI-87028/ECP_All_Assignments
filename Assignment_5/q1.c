@@ -5,9 +5,9 @@ int main()
 
 	printf("Enter the marks of all 5 subject\n");
 
-	for(int i=0; i<=4; i++)
+	for(int i=1; i<=5; i++)
 	{
-		printf("Subject %d : ",i+1);
+		printf("Subject %d : ",i);
 		scanf("%d",&subjects[i]);
 		x = x + subjects[i];
 	}
